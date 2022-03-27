@@ -50,7 +50,7 @@ void reempDuplicacion(int array[], int n)
     {
         for(int j=0;j<n;j++)
         {
-            if(array[i]==array[j+1] && array[i]!=-5 && array[j+1]!=-5 && i!=j+1)
+            if(array[i]==array[j+1] && array[i]!=-5 && array[j+1]!=-5 && i!=j+1) //Pero cambia el orden ps
             {
                 array[j+1]=-5;
 				contRepet++;
